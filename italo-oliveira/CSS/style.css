@@ -1,0 +1,218 @@
+/*================================================SEÇÃO TAGs==================================*/
+h1 {
+  font-family: "Vina Sans", serif;
+  margin: 0 auto;
+  font-size: 5.625rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Poiret One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+  background-color: #161b1f;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #161b1f;
+}
+main {
+  background-color: #1e2830;
+  color: #97ac9f;
+  text-align: center;
+}
+footer {
+  background-color: #000000;
+}
+/*================================================SEÇÃO CLASSs==================================*/
+.italoheadername {
+  margin-top: 1%;
+  width: 10%;
+  padding-left: 1%;
+}
+
+.italooliveiraprofile {
+  width: 20%;
+  padding-top: 5%;
+}
+
+.biografia-container {
+  display: flex;
+  align-items: flex-start;
+  background-color: #161b1f;
+  padding: 20px;
+
+  margin: 0;
+}
+
+.left-img {
+  width: 35%;
+  height: auto;
+  border-radius: 0;
+  margin: none auto 20px none;
+}
+
+.titulo-bio {
+  color: #97ac9f;
+  width: 100%;
+}
+
+.historia-bio {
+  flex: 1;
+  margin-right: 200px;
+}
+
+.historia-bio p {
+  font-size: 2em;
+  line-height: 1.5;
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: justify;
+  font-stretch: condensed;
+}
+#container-projetos {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.col {
+  padding: 10px 40px;
+}
+.card {
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+.card:hover {
+  box-shadow: 0 0 8px;
+  border: solid 1px #fff;
+}
+
+.card:hover img {
+  scale: 1.1;
+  transition: 6s;
+  animation-delay: 0.2s;
+}
+.projeto-page {
+  background-color: #1e2830;
+}
+
+.bottom-container {
+  background-position: 50% 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.redes-sociais {
+  list-style: none;
+  display: table;
+  margin: 0 auto;
+}
+
+.copyright {
+  color: #97ac9f;
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-stretch: condensed;
+  text-align: center;
+  padding: 50px 0 20px;
+  font-size: 1rem;
+}
+
+/*=============================RESPOSIVIDADE DE TELAS====================================================*/
+/* Estilos padrões para dispositivos grandes (Desktop) */
+body {
+  font-size: 1.2rem;
+}
+
+/* Dispositivos médios (Tablets) */
+@media (max-width: 768px) {
+  .italoheadername {
+    width: 20%;
+    padding-left: 2%;
+  }
+
+  .italooliveiraprofile {
+    width: 40%;
+    padding-top: 10%;
+  }
+
+  .biografia-container img {
+    width: 40%;
+  }
+
+  .historia-bio p {
+    width: 60%;
+  }
+
+  .container-projetos {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+/* Dispositivos pequenos (Smartphones) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .italoheadername {
+    width: 30%;
+    padding-left: 5%;
+  }
+
+  .italooliveiraprofile {
+    width: 60%;
+    padding-top: 15%;
+  }
+
+  .biografia-container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .biografia-container img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .historia-bio p {
+    width: 80%;
+  }
+
+  .container-projetos {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
