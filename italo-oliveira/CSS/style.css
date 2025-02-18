@@ -120,16 +120,17 @@ footer {
   background-color: #1e2830;
 }
 
-.bottom-container {
-  background-position: 50% 50%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .redes-sociais {
-  list-style: none;
-  display: table;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  margin: 0;
+}
+.redes-sociais img {
+  max-width: 80px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
 }
 
 .copyright {
