@@ -54,7 +54,6 @@ footer {
   align-items: flex-start;
   background-color: #161b1f;
   padding: 20px;
-
   margin: 0;
 }
 
@@ -86,12 +85,7 @@ footer {
   text-align: justify;
   font-stretch: condensed;
 }
-#container-projetos {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 100px;
-}
-
+/*--------------------------------------------------------------------------------------------------PROJETOS-------------------------------------------------------------------------------------------*/
 .col {
   padding: 10px 40px;
 }
@@ -119,7 +113,12 @@ footer {
 .projeto-page {
   background-color: #1e2830;
 }
-
+.custom-card {
+  margin: 0px;
+  display: inline-flex;
+  padding-bottom: 50px;
+}
+/*-------------------------------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------------------*/
 .redes-sociais {
   display: flex;
   justify-content: center;
@@ -144,76 +143,5 @@ footer {
   text-align: center;
   padding: 50px 0 20px;
   font-size: 1rem;
-}
-
-/*=============================RESPOSIVIDADE DE TELAS====================================================*/
-/* Estilos padrões para dispositivos grandes (Desktop) */
-body {
-  font-size: 1.2rem;
-}
-
-/* Dispositivos médios (Tablets) */
-@media (max-width: 768px) {
-  .italoheadername {
-    width: 20%;
-    padding-left: 2%;
-  }
-
-  .italooliveiraprofile {
-    width: 40%;
-    padding-top: 10%;
-  }
-
-  .biografia-container img {
-    width: 40%;
-  }
-
-  .historia-bio p {
-    width: 60%;
-  }
-
-  .container-projetos {
-    flex-direction: column;
-    gap: 30px;
-  }
-}
-
-/* Dispositivos pequenos (Smartphones) */
-@media (max-width: 480px) {
-  h1 {
-    font-size: 3rem;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .italoheadername {
-    width: 30%;
-    padding-left: 5%;
-  }
-
-  .italooliveiraprofile {
-    width: 60%;
-    padding-top: 15%;
-  }
-
-  .biografia-container {
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .biografia-container img {
-    width: 50%;
-    margin: 0 auto;
-  }
-
-  .historia-bio p {
-    width: 80%;
-  }
-
-  .container-projetos {
-    flex-direction: column;
-    gap: 20px;
-  }
+  margin: 0;
 }
