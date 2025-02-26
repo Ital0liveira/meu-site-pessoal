@@ -1,0 +1,165 @@
+/*================================================SEÇÃO TAGs==================================*/
+h1 {
+  font-family: "Vina Sans", serif;
+  margin: 0 auto;
+  font-size: 5.625rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Poiret One", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* ou bold, normal, etc. */
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+p {
+  font-size: 1rem;
+}
+body {
+  background-color: #000000;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #161b1f;
+}
+main {
+  background-color: #1e2830;
+  color: #97ac9f;
+  text-align: center;
+}
+footer {
+  background-color: #000000;
+}
+
+/*-----------------------PERFIL----------------------*/
+
+#perfil {
+  margin: 0;
+  text-align: center;
+  background-color: #1e2830;
+  color: #97ac9f;
+}
+
+.italo-payne {
+  width: 15%;
+  padding-bottom: 20px;
+}
+/*-----------------------PERFIL end----------------------*/
+/*-----------------------SOBRE MIM----------------------*/
+#sobre-mim {
+  color: #97ac9f;
+  background-color: #000000;
+  padding: 50px;
+}
+
+.who-am-i {
+  text-align: start;
+  font-size: 6rem;
+}
+
+.apresentação {
+  text-align: start;
+  font-family: "Patrick Hand", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+/*-----------------------SOBRE MIM end----------------------*/
+
+/*--------------------------------------------------------------------------------------------------PROJETOS-------------------------------------------------------------------------------------------*/
+.col {
+  padding: 10px 40px;
+}
+.card {
+  border-radius: 12px;
+  padding: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+.card:hover {
+  box-shadow: 0 0 8px;
+  border: solid 1px #fff;
+}
+
+.card:hover img {
+  scale: 1.1;
+  transition: 6s;
+  animation-delay: 0.2s;
+}
+.projeto-page {
+  background-color: #1e2830;
+  padding-bottom: 5%;
+}
+.titulo-projeto {
+  padding-top: 2%;
+  font-size: 5.5rem;
+  color: #97ac9f;
+  text-align: center;
+  padding-bottom: 2%;
+}
+/*--------------------------------------------------------------------------------------------------PROJETOS end-------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------FEATURES-------------------------------------------------------------------------------------------*/
+#features {
+  background-color: #000000;
+  padding: 7% 15%;
+  color: #97ac9f;
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: rgb(255, 255, 255);
+}
+
+.icon:hover {
+  color: red;
+}
+/*--------------------------------------------------------------------------------------------------FEATURES end-------------------------------------------------------------------------------------------*/
+
+#cirilo {
+  background-color: #1e2830;
+  color: #97ac9f;
+}
+.carousel-item {
+  margin: 20px;
+  text-align: center;
+}
+/*-------------------------------------------------------------------------------------------------FOOTER------------------------------------------------------------------------------------------*/
+.rede-sociais {
+  width: 100px;
+  padding: 20px;
+}
+.bottom-container {
+  text-align: center;
+}
+
+.copyright {
+  color: #97ac9f;
+  font-family: "Inconsolata", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-stretch: condensed;
+  text-align: center;
+  padding: 50px 0 20px;
+  font-size: 1rem;
+  margin: 0;
+}
+/*-------------------------------------------------------------------------------------------------FOOTER end------------------------------------------------------------------------------------------*/
